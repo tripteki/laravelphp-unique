@@ -1,0 +1,46 @@
+{
+    "name": "tripteki/laravelphp-unique",
+    "version": "1.0.0",
+    "description": "Trip Teknologi's Laravel.php Unique Identifier",
+
+    "readme": "README.md",
+    "license": "MIT",
+    "authors": [ { "name": "Trip Teknologi", "email": "tripteki.company@gmail.com" } ],
+    "homepage": "https://github.com/tripteki/laravelphp-unique",
+    "support": { "issues": "https://github.com/tripteki/laravelphp-unique/issues" },
+
+    "require": {
+
+        "php": "^8.0.2"
+    },
+
+    "require-dev": {},
+
+    "suggest": {
+
+        "laravel/lumen-framework": "Required when using lumen framework (^9.0).",
+        "laravel/framework": "Required when using laravel framework (^9.0)."
+    },
+
+    "autoload": {
+
+        "psr-4": {
+
+            "Tripteki\\Uid\\": "src/"
+        }
+    },
+
+    "autoload-dev": {},
+
+    "extra": {
+
+        "laravel": {
+
+            "dont-discover": [],
+
+            "providers": [],
+
+            "aliases": []
+        }
+    }
+}
